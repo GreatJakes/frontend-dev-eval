@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import a      from './a.jpg'
+import box    from './box.png'
 import {
     ChallengeHeading,
     ChallengeWrapper,
@@ -10,9 +10,9 @@ const Challenge1 = () => {
     return (
         <ChallengeWrapper>
             <ChallengeHeading>Challenge 1</ChallengeHeading>
-            <Description>Style SingleDiv to look like the image. (Doesn't have to be pixel-perfect.)</Description>
+            <Description>Use only CSS to style SingleDiv to look like the image.</Description>
             <div>
-                <img src={a} width={100} height="auto" alt=""/>
+                <img src={box} width="auto" height="auto" alt=""/>
                 <SingleDiv/>
             </div>
         </ChallengeWrapper>
